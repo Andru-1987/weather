@@ -1,0 +1,62 @@
+/* hoja de estilo para un intento de API */
+:root
+  {
+    --border: 1px solid red;
+    --height: 200px;
+    /* Soft */
+    --softbg:#DEFCF9;
+    /* Medium */
+    --mediumbg:#CADEFC;
+    /* Strong */
+    --strongbg:#CCA8E9;
+  }
+
+body
+  {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+section
+  {
+    display: flex;
+    flex-direction: row;
+    border:var(--border);
+  }
+
+  .sub , .valores, .info
+      {
+        text-transform: uppercase;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: var(--height);
+        width: 70%;
+        text-align: center;
+      }
+    input[name="ciudad"]
+     {
+       border: none;
+       background:var(--softbg);
+       text-transform: uppercase;
+       box-sizing: border-box;
+       height: 70px;
+       width: 400px;
+       border-radius: 50px;
+       text-align: center;
+     }
+
+     input[name="submit"]
+     {
+       border: none;
+       background: var(--mediumbg);
+       box-sizing: border-box;
+       height: 70px;
+       width: 100px;
+       border-radius: 70px;
+     }
