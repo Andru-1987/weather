@@ -43,7 +43,7 @@ section
      {
        border: none;
        background:var(--softbg);
-       text-transform: uppercase;
+       /* text-transform: uppercase; */
        box-sizing: border-box;
        height: 70px;
        width: 400px;
