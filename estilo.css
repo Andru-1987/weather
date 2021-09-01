@@ -25,12 +25,10 @@ section
   {
     display: flex;
     flex-direction: row;
-    border:var(--border);
   }
 
   .sub , .valores, .info
       {
-        text-transform: uppercase;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
@@ -60,3 +58,19 @@ section
        width: 100px;
        border-radius: 70px;
      }
+
+  .info
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+  .sub
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
